@@ -1,6 +1,9 @@
 # LiDAR point-cloud based 3D object detection
 Object detection is a key component in advanced driver assistance systems (ADAS), which allow cars to detect driving lanes and pedestrians to improve road safety. This report describes a modern approach for 3D Object Detection using LiDAR while driving on the road. The system includes a Velodyne VLP-16 LiDAR sensor to capture real-time scenarios. Using Open3d, we perform the following: segmentation, RANSAC, DBSCAN, Voxel-Grid Downsampling, clustering, and detection using bounding boxes. The experimental results confirm the detection of objects such as pedestrians, cyclists, and other vehicles.
 
+To get the LiDAR_pedestrian_bicyclist_cars dataset ROSbag file visit this link:
+- https://northeastern-my.sharepoint.com/:f:/r/personal/singh_risha_northeastern_edu/Documents/LiDAR%20bicycle_Pedestrian%20data?csf=1&web=1&e=rjat17
+
 # Method
 LiDAR is an acronym for Light Detection And Ranging. Eye-safe laser beams are used to create a 3D representation of the environment. The LiDAR sensor emits pulsed light waves from a laser into the surrounding area. These pulses bounce off surrounding objects and return to the sensor. The sensor uses the time it took for each pulse to return to the sensor to calculate the distance it traveled. Repeating this process multiple times per second creates a real-time 3D point cloud map of the environment.
 
